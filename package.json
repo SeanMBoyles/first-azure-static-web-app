@@ -2,9 +2,8 @@
   "name": "vanilla-basic",
   "version": "1.0.0",
   "scripts": { 
-    "build": "",
-    "post_build": "npm install",
-    "start": "sirv ./src public --cors --single --no-clear --port 8000"
+    "start": "sirv ./src public --cors --single --no-clear --port 8000",
+    "post_build": "npm install"
   },
   "dependencies": {
     "@azure/communication-chat": "^1.5.1",
